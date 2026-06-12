@@ -27,3 +27,11 @@ One-command installer for 25 essential software applications on Windows &amp; Li
 ### Windows (PowerShell as Administrator)
 ```powershell
 irm https://raw.githubusercontent.com/YOUR_USERNAME/essential-software-installer/main/install_windows.ps1 | iex
+
+Linux (Ubuntu/Debian)
+curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/essential-software-installer/main/install_linux.sh | bash
+
+Manual Installation
+Clone and run locally:
+git clone https://github.com/YOUR_USERNAME/essential-software-installer.git
+cd essential-software-installer
